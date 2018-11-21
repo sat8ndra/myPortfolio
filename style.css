@@ -1,0 +1,73 @@
+body{
+    background-color: #555;
+    background-image: url(bg1.jpg);
+}
+
+#container {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #ddd;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    padding: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px #333333;
+}
+
+p {
+    padding: 10px 30px;
+    margin: 30px;
+}
+
+#profile-pic {
+    width: 25%;
+    border-radius: 50%;
+    
+}
+
+
+ul li{
+    position: relative;
+    left: -20px;
+    align-items: center;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+
+#fb, #tw, #lin {
+    border-radius: 50%;
+    padding: 0 5px 0;
+}
+
+#pages {
+    margin-top: 50px;
+    border-top: solid 1px white;
+}
+
+#pages li {
+    padding: 10px 30px;
+    margin: 50 30px;
+}
+#pages li a:link {
+    color: #ddd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#pages li a:hover {
+    color: #fc3;
+}
+#pages li a:visited {
+    color: #ddd;
+}
+footer{
+    margin: 90px auto 0;
+}
+
